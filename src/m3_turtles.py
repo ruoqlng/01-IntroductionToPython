@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and RUOQING.
+         their colleagues and Ruoqing.
 """
 ###############################################################################
 #
