@@ -95,8 +95,8 @@ boris.backward(100)
 # set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 10  # Faster
+natasha.pen = rg.Pen('pink', 30)  # Second argument is the Pen's thickness
+natasha.speed = 50  # Faster
 
 natasha.backward(50)
 natasha.right(90)
@@ -119,7 +119,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       dave    matt
@@ -146,7 +146,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
