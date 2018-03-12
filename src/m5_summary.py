@@ -31,18 +31,17 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 size = 20
-natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('pink', 5)
+becca = rg.SimpleTurtle('turtle')
+becca.pen = rg.Pen('pink', 5)
 
 
-natasha.speed = 200
-for k in range(20):
-    natasha.draw_square(size)
-    natasha.pen_up()
-    natasha.right(90)
-    natasha.forward(50)
-    natasha.left(90)
+becca.speed = 200
+for k in range(7):
+    becca.draw_square(size)
+    becca.pen_up()
+    becca.right(90)
+    becca.forward(50)
+    becca.left(90)
+    becca.pen_down()
 
-    natasha.pen_down()
-    size = size
 window.close_on_mouse_click()

@@ -27,3 +27,35 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+will = rg.SimpleTurtle('turtle')
+will.pen = rg.Pen('aqua', 1)
+will.speed = 50
+
+
+size = 200
+becca = rg.SimpleTurtle('turtle')
+becca.pen = rg.Pen('pink', 1 )
+becca.speed = 50
+
+for k in range(9):
+
+    size = size - 12
+    will.draw_square(size)
+    will.pen_up()
+    will.forward(10)
+    will.pen_down()
+    size = size - 10
+
+    size = size - 12
+    becca.draw_square(size)
+    becca.pen_up()
+
+    becca.forward(10)
+    becca.pen_down()
+    size = size - 10
+
+window.close_on_mouse_click()

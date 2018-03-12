@@ -56,7 +56,6 @@ red_turtle = rg.SimpleTurtle('turtle')
 red_turtle.pen = rg.Pen('red', 3)
 
 red_turtle.speed = 20
-size = 200
 red_turtle.left(180)
 # Do the indented code 13 times.  Each time draws a square.
 for k in range(13):
@@ -68,7 +67,6 @@ for k in range(13):
     blue_turtle.forward(10)
     blue_turtle.pen_down()
     size = size - 10
-
 
     size = size - 12
     red_turtle.draw_circle(size)
